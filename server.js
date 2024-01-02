@@ -1,5 +1,7 @@
 import express from "express";
+// import bodyParser from "body-parser"
 import cors from "cors";
+import data from "./data.json";
 
 // Defines the port the app will run on. Defaults to 8080, but can be overridden
 // when starting the server. Example command to overwrite PORT env variable value:
